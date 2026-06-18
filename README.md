@@ -44,4 +44,4 @@ Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fiction-workflow"
 
 ## License
 
-尚未指定许可证。公开仓库如需允许他人复用，建议添加 MIT、Apache-2.0 或自定义许可证。
+This project is licensed under the GNU General Public License v3.0 or later. See [LICENSE](LICENSE) for details.
