@@ -1,6 +1,6 @@
 # Character Card & Fiction Workflow Skill
 
-一个用于 Codex 的角色卡/小说生成工作流 skill。它以酒馆 AI / TavernAI / SillyTavern 角色卡生成为主，把碎片文本、聊天记录、草稿或已有小说整理成角色设定、原文锚定证据和角色卡 JSON；在需要时，也可以辅助扩写、续写或结构化生成小说。
+一个用于 Codex 的角色卡/小说生成工作流 skill。它可以把碎片文本、聊天记录、草稿或已有小说整理成角色设定、原文锚定证据和酒馆 AI / TavernAI / SillyTavern 角色卡 JSON，也可以辅助扩写、续写或结构化生成小说。
 
 ## 功能概览
 
@@ -34,7 +34,7 @@ Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\character-card-fiction-work
 然后在 Codex 中使用：
 
 ```text
-使用 character-card-fiction-workflow 根据我提供的文本素材提炼角色设定并生成酒馆AI角色卡，必要时再辅助扩写或续写小说。
+使用 character-card-fiction-workflow 根据我提供的文本素材提炼角色设定、生成酒馆AI角色卡，或辅助扩写、续写、结构化生成小说。
 ```
 
 ## 注意事项
