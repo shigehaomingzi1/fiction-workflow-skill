@@ -1,4 +1,4 @@
 interface:
-  display_name: "小说写作工作流"
-  short_description: "从原始文本提炼角色、生成结构化小说与酒馆AI角色卡"
-  default_prompt: "使用 $fiction-workflow 根据我提供的文本素材写小说并生成角色卡"
+  display_name: "角色卡/小说生成工作流"
+  short_description: "以酒馆AI角色卡生成为主，从文本提炼角色设定，并辅助扩写或续写小说"
+  default_prompt: "使用 $character-card-fiction-workflow 根据我提供的文本素材提炼角色设定并生成酒馆AI角色卡，必要时再辅助扩写或续写小说"

@@ -1,11 +1,12 @@
-# Fiction Workflow Skill
+# Character Card & Fiction Workflow Skill
 
-一个用于 Codex 的小说写作工作流 skill。它把碎片文本、聊天记录、草稿或已有小说整理成结构化创作流程，并支持生成酒馆 AI / TavernAI / SillyTavern 角色卡。
+一个用于 Codex 的角色卡/小说生成工作流 skill。它以酒馆 AI / TavernAI / SillyTavern 角色卡生成为主，把碎片文本、聊天记录、草稿或已有小说整理成角色设定、原文锚定证据和角色卡 JSON；在需要时，也可以辅助扩写、续写或结构化生成小说。
 
 ## 功能概览
 
 - 从原始文本中提取角色设定，并保留原文锚定证据。
-- 支持扩写、续写、仅生成角色卡、扩写后续写、扩写后生成角色卡等分支。
+- 生成酒馆 AI / TavernAI / SillyTavern 可导入角色卡 JSON。
+- 支持仅生成角色卡、从成品小说反向提取角色卡、扩写后生成角色卡、扩写、续写等分支。
 - 提供风格与篇幅设定流程，包括叙事节奏、描写尺度、情感浓度、对白风格、环境描写权重和整体基调。
 - 在续写前规划剧情走向、事件列表、优先级和填充模式。
 - 生成结构文档、一致性校验清单、小说正文和角色卡 JSON。
@@ -27,13 +28,13 @@
 把本仓库复制到 Codex skills 目录中，例如：
 
 ```powershell
-Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\fiction-workflow"
+Copy-Item -Recurse . "$env:USERPROFILE\.codex\skills\character-card-fiction-workflow"
 ```
 
 然后在 Codex 中使用：
 
 ```text
-使用 fiction-workflow 根据我提供的文本素材写小说并生成角色卡。
+使用 character-card-fiction-workflow 根据我提供的文本素材提炼角色设定并生成酒馆AI角色卡，必要时再辅助扩写或续写小说。
 ```
 
 ## 注意事项
